@@ -15,6 +15,8 @@
 		C1792A561F74B8C9004867DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1792A541F74B8C9004867DB /* LaunchScreen.storyboard */; };
 		C1792A611F74B8C9004867DB /* Cell____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1792A601F74B8C9004867DB /* Cell____Tests.m */; };
 		C1792A6C1F74B8C9004867DB /* Cell____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1792A6B1F74B8C9004867DB /* Cell____UITests.m */; };
+		C1792A7B1F74B994004867DB /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1792A7A1F74B994004867DB /* CustomTableViewCell.m */; };
+		C1792A7E1F74BAFD004867DB /* OYCountDownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1792A7D1F74BAFD004867DB /* OYCountDownManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C1792A671F74B8C9004867DB /* Cell上的跑秒UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell上的跑秒UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1792A6B1F74B8C9004867DB /* Cell____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell____UITests.m"; sourceTree = "<group>"; };
 		C1792A6D1F74B8C9004867DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1792A791F74B994004867DB /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		C1792A7A1F74B994004867DB /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		C1792A7C1F74BAFD004867DB /* OYCountDownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYCountDownManager.h; sourceTree = "<group>"; };
+		C1792A7D1F74BAFD004867DB /* OYCountDownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYCountDownManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,14 @@
 		C1792A451F74B8C9004867DB /* Cell上的跑秒 */ = {
 			isa = PBXGroup;
 			children = (
+				C1792A7C1F74BAFD004867DB /* OYCountDownManager.h */,
+				C1792A7D1F74BAFD004867DB /* OYCountDownManager.m */,
 				C1792A491F74B8C9004867DB /* AppDelegate.h */,
 				C1792A4A1F74B8C9004867DB /* AppDelegate.m */,
 				C1792A4C1F74B8C9004867DB /* ViewController.h */,
 				C1792A4D1F74B8C9004867DB /* ViewController.m */,
+				C1792A791F74B994004867DB /* CustomTableViewCell.h */,
+				C1792A7A1F74B994004867DB /* CustomTableViewCell.m */,
 				C1792A4F1F74B8C9004867DB /* Main.storyboard */,
 				C1792A521F74B8C9004867DB /* Assets.xcassets */,
 				C1792A541F74B8C9004867DB /* LaunchScreen.storyboard */,
@@ -278,6 +288,8 @@
 			files = (
 				C1792A4E1F74B8C9004867DB /* ViewController.m in Sources */,
 				C1792A4B1F74B8C9004867DB /* AppDelegate.m in Sources */,
+				C1792A7B1F74B994004867DB /* CustomTableViewCell.m in Sources */,
+				C1792A7E1F74BAFD004867DB /* OYCountDownManager.m in Sources */,
 				C1792A481F74B8C9004867DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
 				INFOPLIST_FILE = "Cell上的跑秒/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----------.Cell----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
 				INFOPLIST_FILE = "Cell上的跑秒/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----------.Cell----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

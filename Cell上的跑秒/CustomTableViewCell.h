@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomTableViewCell : UITableViewCell
+
 @property (nonatomic, assign) long long time;
-/// 倒计时到0时回调
-@property (nonatomic, copy) void(^countDownZero)();
 
 + (instancetype)cellWithTableView:(UITableView *)tableView;
+
 @end
